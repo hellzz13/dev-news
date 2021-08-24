@@ -1,8 +1,8 @@
-import styles from '../styles/home.module.scss'
+import styles from '../pages/styles/home.module.scss';
 
 const Home = () => {
   return (
-    <h1>teste</h1>
+    <h1 className={styles.title}>AGORA <span>VAI!</span></h1>
   )
 }
 
