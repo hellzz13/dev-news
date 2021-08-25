@@ -17,22 +17,26 @@
     nav {
         margin-left: 5rem;
         height: 5rem;
-    }
-    a {
-        display: inline-block;
-        position: relative;
-        padding: 0 0.5rem;
-        height: 5rem;
-        line-height: 5rem;
-        color: var(--gray300);
-        transition: color 0.2s;
-
-        & + a{
-            margin-left: 2rem;
-        }
-
-        &:hover{
-            color: var(--white);
+        a {
+            display: inline-block;
+            position: relative;
+            padding: 0 0.5rem;
+            height: 5rem;
+            line-height: 5rem;
+            color: var(--gray300);
+            transition: color 0.2s;
+    
+            & + a{
+                margin-left: 2rem;
+            }
+    
+            &:hover{
+                color: var(--white);
+            }
+            &.active{
+                color: var(--white);
+                font-weight: bold;
+            }
         }
     }
 }
