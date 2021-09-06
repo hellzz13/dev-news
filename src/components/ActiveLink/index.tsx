@@ -14,6 +14,7 @@ export function ActiveLink({children, activeClassName, ...otherProps}: ActiveLin
     
     return(
         <Link {... otherProps}>
+            {/* clona o children e atribui um valor da variavel que será passada como propriedade*/}
             {cloneElement(children, {
                 className,
                 })}
